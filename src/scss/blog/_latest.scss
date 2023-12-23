@@ -1,0 +1,49 @@
+.sidebar__latest{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.sidebar__latest-title{
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+    color: #2D3958;
+    padding-bottom: 28px;
+}
+
+.sidebar__latest-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sidebar__content-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar__content-img{
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar__content-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.sidebar__latest-note{
+    width: 135px;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: -0.3px;
+    color: #7B88A8;
+}

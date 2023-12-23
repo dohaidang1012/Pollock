@@ -1,0 +1,66 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  :root {
+    --grid: 12;
+    --grid-container-width: 1200px;
+    --grid-container-height: 950px;
+    --grid-container-gap: 15px;
+    --grid-col-gap-vertical: 30px;
+    --grid-col-gap-horizontal: 30px;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #666;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    // font-family: Poppins, sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #2d3958;
+  }
+
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  h4 {
+    font-size: 26px;
+  }
+  
+  h5 {
+    font-size: 20px;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }

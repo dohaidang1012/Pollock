@@ -1,0 +1,94 @@
+// building
+
+.building {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 0 60px;
+  }
+  
+  .building__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .building__title {
+    font-size: 48px;
+    line-height: 116.667%;
+    letter-spacing: -2px;
+    width: 72%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .building__note {
+    font-size: 18px;
+    line-height: 155.556%;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #7b88a8;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  .building__item {
+    position: relative;
+    border-radius: 12px;
+    border: 1px solid #e7e5ea;
+    padding: 40px 45px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .building__item:hover {
+    box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.2);
+  }
+  
+  .building__item.last-child::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -70px;
+    width: 60px;
+    height: 60px;
+    background-color: #4f77ff;
+    border-radius: 50%;
+    border-bottom-left-radius: 0px;
+  }
+  
+  .building__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 40px;
+  }
+  
+ .building__icon--purple {
+    background-color: rgba(136, 108, 255, 0.2);
+  }
+  
+  .building__item-title {
+    color: #120f1f;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 145.455%;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  .building__item-note {
+    font-size: 16px;
+    line-height: 162.5%;
+    text-align: center;
+  }
+  
+  

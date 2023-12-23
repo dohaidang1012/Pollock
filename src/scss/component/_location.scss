@@ -1,0 +1,133 @@
+// Location
+
+.location {
+    padding: 0 60px;
+  }
+  
+  .location .row {
+    justify-content: space-between;
+  }
+  
+  .location__img-icon {
+    position: relative;
+  }
+  
+  .location__img-icon::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -70px;
+    width: 60px;
+    height: 60px;
+    background-color: #61dcdf;
+    border-radius: 50%;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .location__img {
+    margin-bottom: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  
+  .location__img img {
+    transition: all 0.3s ease-in-out;
+  }
+  .location__img img:hover {
+    transform: scale(1.1);
+  }
+  
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  .location__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+  
+  .location__address {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+  }
+  
+  .location__price {
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #7b88a8;
+  }
+  
+  .location__note {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7b88a8;
+    letter-spacing: -0.6px;
+  }
+  
+  .location__title {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -0.84px;
+    padding: 60px 0 40px;
+  }
+  
+  .location__content {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    padding-bottom: 60px;
+    color: #788190;
+  }
+  
+  .location__nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 80px;
+  }
+  
+  .location__nav-text {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #886cff;
+  }
+  
+  .location__more {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .location__button {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #e7e5ea;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  
+    &:hover {
+      box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+    }
+  }
+  
+  

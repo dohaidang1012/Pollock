@@ -1,0 +1,67 @@
+
+.fortfolio {
+  padding: 100px 60px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fortfolio__title {
+  width: 90%;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 119.048%;
+  letter-spacing: -0.84px;
+  color: #2d3958;
+  text-align: center;
+  font-family: Outfit;
+  padding-bottom: 100px;
+}
+
+.fortfolio__title span {
+  background: -webkit-linear-gradient(224deg, #61dcdf 0%, #886cff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fortfolio__item {
+    position: relative;
+}
+
+.fortfolio__item::before{
+    content: "";
+    position: absolute;
+    bottom:60px;
+    left: -70px;
+    width: 60px;
+    height: 60px;
+    background-color: #4f77ff;
+    border-radius: 50%;
+    border-bottom-right-radius: 0px;
+}
+
+.fortfolio__img {
+    cursor: pointer;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.fortfolio__img img{
+    transition: all .3s ease-in-out;
+}
+
+.fortfolio__img img:hover{
+    transform: scale(1.1);
+}
+
+.fortfolio__city {
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 145.455%;
+    letter-spacing: -1px;
+    color: #4F77FF;
+    padding-top: 29px;
+}

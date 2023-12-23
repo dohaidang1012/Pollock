@@ -1,0 +1,85 @@
+.blog__container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.post__startup {
+  border-radius: 5px;
+  border: 1px solid #e7e5ea;
+  background: #fff;
+  border: none;
+  outline: none;
+}
+
+.post__startup-icon {
+  padding-bottom: 30px;
+}
+
+.post__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.post__description-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.post__description-avatar img {
+  width: 30px;
+  height: 30px;
+}
+
+.post__description-name {
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: #7b88a8;
+}
+
+.post__description-date {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.4;
+  color: #7b88a8;
+}
+
+.post__note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__note-title {
+  font-family: Outfit;
+  font-style: 36px;
+  font-weight: 500;
+  line-height: 127.778%;
+  letter-spacing: -1px;
+  padding: 30px 40px;
+  color: #2d3958;
+}
+
+.post__note-content {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 162.5%;
+  color: #7b88a8;
+  padding: 40px;
+}
+
+.btn-more {
+  margin-left: 40px;
+}

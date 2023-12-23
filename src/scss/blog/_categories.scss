@@ -1,0 +1,42 @@
+.sidebar__categories {
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+
+.sidebar__categories-title {
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height:  155.556%;
+  letter-spacing: 0.4px;
+  padding-bottom: 30px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E7E5EA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.select__nav{
+    appearance: none;
+    width: 100%;
+    padding: 11px 17px 11px 18px;
+    border: none;
+    outline: none;
+    color: #7B88A8;
+    cursor: pointer;
+}
+
+.select__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 17px;
+}

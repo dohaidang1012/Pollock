@@ -1,0 +1,51 @@
+// Office
+
+.office {
+    padding: 100px 65px;
+    background-color: #f7f5f1;
+    border-radius: 20px;
+  }
+  
+  .office__title {
+    font-size: 36px;
+    line-height: 127.778%;
+    letter-spacing: -1px;
+  }
+  
+  .office__item {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .office__item--purple {
+    background-color: #886cff;
+  }
+  
+  .office__item-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .office__item-detail {
+    width: 70%;
+  }
+  
+  .office__item-title {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    padding-bottom: 10px;
+  }
+  
+  .office__item-content {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #7b88a8;
+  }
+  
+  

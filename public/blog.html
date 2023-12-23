@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header__header">
+          
+          <div class="header__top">
+            <a href="#" class="logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="44"
+                viewBox="0 0 32 44"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_301_6510)">
+                  <path
+                    d="M32 16C32 11.7565 30.3143 7.68687 27.3137 4.68629C24.3131 1.68571 20.2435 0 16 0C11.7565 0 7.68687 1.68571 4.68629 4.68629C1.68571 7.68687 0 11.7565 0 16C0 16.2133 3.91006e-07 16.4267 0.0170671 16.64V16H16.0171V32C20.2576 31.9955 24.3229 30.3078 27.3197 27.3077C30.3166 24.3076 32 20.2405 32 16Z"
+                    fill="#61DCDF"
+                  />
+                  <path
+                    d="M0 17V44H16V32.3071H15.9872C11.8545 32.3071 7.88218 30.7135 4.90207 27.8602C1.92197 25.0069 0.165306 21.1151 0 17Z"
+                    fill="#886CFF"
+                  />
+                  <path
+                    d="M0 16V16.64C0.165262 20.7693 1.92146 24.6746 4.90077 27.5378C7.88007 30.401 11.8514 32 15.9829 32H16V16H0Z"
+                    fill="#F9E492"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_301_6510">
+                    <rect width="32" height="44" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <h2 class="logo__text">Pollock</h2>
+            </a>
+            <ul class="header__menu">
+              <li class="header__nav">
+                <a href="index.html">HOME</a>
+              </li>
+              <li class="header__nav">
+                <a href="service.html">SERVICES</a>
+              </li>
+              <li class="header__nav">
+                <a href="about.html">ABOUT</a>
+              </li>
+              <li class="header__nav">
+                <a href="page.html">PAGES</a>
+              </li>
+              <li class="header__nav">
+                <a href="blog.html">BLOG</a>
+              </li>
+              <li class="header__nav">
+                <a href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <div class="header__right">
+              <div class="header__feature">
+                <div class="header__search">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                  >
+                    <circle
+                      cx="9"
+                      cy="8.99997"
+                      r="8"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.5 14.9579L19.5 19.958"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="header__cart">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="22"
+                    viewBox="0 0 20 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M2.53715 9.47134C2.80212 7.48412 4.49726 6 6.50207 6H13.4979C15.5027 6 17.1979 7.48412 17.4628 9.47135L18.3962 16.4713C18.7159 18.8693 16.8504 21 14.4313 21H5.56873C3.14958 21 1.2841 18.8693 1.60382 16.4713L2.53715 9.47134Z"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      d="M14 8V5C14 2.79086 12.2091 1 10 1V1C7.79086 1 6 2.79086 6 5L6 8"
+                      stroke="#7B88A8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="button button--blue">Sign Up</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="header__nav">
+      <div class="container">
+        <div class="navigator">
+          <div class="navigator-lf"></div>
+          <div class="navigator-ct">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="900"
+              height="314"
+              viewBox="0 0 900 314"
+              fill="none"
+            >
+              <g opacity="0.3" filter="url(#filter0_f_302_1357)">
+                <path
+                  d="M700 450C700 588.071 588.071 700 450 700C311.929 700 200 588.071 200 450C200 311.929 311.929 200 450 200C588.071 200 700 311.929 700 450Z"
+                  fill="#4F77FF"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_302_1357"
+                  x="0"
+                  y="0"
+                  width="900"
+                  height="900"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="100"
+                    result="effect1_foregroundBlur_302_1357"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="navigator-rg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="490"
+              height="500"
+              viewBox="0 0 490 500"
+              fill="none"
+            >
+              <g opacity="0.3" filter="url(#filter0_f_302_1185)">
+                <path
+                  d="M961 165.891C961 371.281 790.644 537.782 580.5 537.782C370.356 537.782 200 371.281 200 165.891C200 -39.4986 370.356 -206 580.5 -206C790.644 -206 961 -39.4986 961 165.891Z"
+                  fill="#886CFF"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_302_1185"
+                  x="0"
+                  y="-406"
+                  width="1161"
+                  height="1143.78"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="100"
+                    result="effect1_foregroundBlur_302_1185"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="navigator__content-box">
+            <div class="navigator__content-title">Our Latest News</div>
+            <div class="navigator__content-note">
+              homepage
+              <span>/ Blog</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="page-section">
+        <div class="container">
+          <div class="blog">
+            <div class="row">
+                <div class="blog__container">
+                    <div
+                      class="col"
+                      style="--col-xl: 9; --col-lg: 9; --col-md: 12; --col-sm: 12"
+                    >
+                      <div class="post">
+                        <div class="post__startup">
+                          <div class="post__startup-icon">
+                            <div class="post__img">
+                              <img src="../assets/images/blog-banner1.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="post__description">
+                            <div class="post__description-avatar">
+                              <img src="../assets/images/blog-avatar.jpg" alt="" />
+                              <h3 class="post__description-name">Written By Admin</h3>
+                            </div>
+                            <div class="post__description-date">10 July, 2022</div>
+                          </div>
+                          <div class="post__note">
+                            <h2 class="post__note-title">
+                              Vietnamese Fintech Startup Raises $25 M Series B Round
+                              From Ospace, Vietnam Investments Group
+                            </h2>
+                            <h3 class="post__note-content">
+                              Vietnamese fintech startup Finhay has raised a $25
+                              million Series B round led by Singapore-based Openspace
+                              Ventures, an early backer of Indonesia's GoTo Group and
+                              30 Under 30 Asia honoree Rexy Josh Dorado's Manila-based
+                              social media site Kumu, and private firm Vietnam
+                              Investments Group.
+                            </h3>
+                          </div>
+                          <div class="button button--blue btn-more">READ MORE</div>
+                        </div>
+      
+                        <div class="post__startup">
+                          <div class="post__startup-icon">
+                            <div class="post__img">
+                              <img src="../assets/images/blog-banner2.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="post__description">
+                            <div class="post__description-avatar">
+                              <img src="../assets/images/blog-avatar.jpg" alt="" />
+                              <h3 class="post__description-name">Written By Admin</h3>
+                            </div>
+                            <div class="post__description-date">10 July, 2022</div>
+                          </div>
+                          <div class="post__note">
+                            <h2 class="post__note-title">
+                              Tips To Know How Technology Can Help Bridge The Gap
+                              Between Infrastructure & Sustainability
+                            </h2>
+                            <h3 class="post__note-content">
+                              It’s no secret the need for sustainable and resilient
+                              infrastructure is becoming more urgent every year. In
+                              fact, industry experts predict that the world will have
+                              to invest $90 trillion in sustainable infrastruc-ture by
+                              2030 to truly combat climate change.
+                            </h3>
+                          </div>
+                          <div class="button button--blue btn-more">READ MORE</div>
+                        </div>
+      
+                        <div class="post__startup">
+                          <div class="post__startup-icon">
+                            <div class="post__img">
+                              <img src="../assets/images/blog-banner3.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="post__description">
+                            <div class="post__description-avatar">
+                              <img src="../assets/images/blog-avatar.jpg" alt="" />
+                              <h3 class="post__description-name">Written By Admin</h3>
+                            </div>
+                            <div class="post__description-date">10 July, 2022</div>
+                          </div>
+                          <div class="post__note">
+                            <h2 class="post__note-title">
+                              How Coworking Companies Like The Wing And Industrious
+                              Are Intersecting With Retail
+                            </h2>
+                            <h3 class="post__note-content">
+                              The lines between retail, office, and industrial real
+                              estate are becoming exponentially blurred. And the
+                              relationship between retail and coworking seems to be at
+                              the forefront of the change, with coworking companies
+                              leasing retail real estate and displaying retail
+                              products in their spaces.
+                            </h3>
+                          </div>
+                          <div class="button button--blue btn-more">READ MORE</div>
+                        </div>
+      
+                        <div class="post__startup">
+                          <div class="post__startup-icon">
+                            <div class="post__img">
+                              <img src="../assets/images/blog-banner4.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="post__description">
+                            <div class="post__description-avatar">
+                              <img src="../assets/images/blog-avatar.jpg" alt="" />
+                              <h3 class="post__description-name">Written By Admin</h3>
+                            </div>
+                            <div class="post__description-date">10 July, 2022</div>
+                          </div>
+                          <div class="post__note">
+                            <h2 class="post__note-title">
+                              5 More Questions To Ask During Your Project Kickoff
+                              Meeting
+                            </h2>
+                            <h3 class="post__note-content">
+                              Project kickoff meetings can be a powerful tool for
+                              establishing a strong foundation for your project. Don’t
+                              make the mistake of sending a few emails in lieu of a
+                              formal kickoff meeting as the kickoff meeting provides a
+                              valuable opportunity to get everyone on the same page.
+                            </h3>
+                          </div>
+                          <div class="button button--blue btn-more">READ MORE</div>
+                        </div>
+      
+                        <div class="post__number">
+                          <a href="" class="post__number-left number-more">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14"
+                              height="14"
+                              viewBox="0 0 14 14"
+                              fill="none"
+                            >
+                              <path
+                                d="M8.75 3.5L5.25 7L8.75 10.5"
+                                stroke="#7B88A8"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </a>
+                          <a href="" class="post__number-one number-more">1</a>
+                          <a href="" class="post__number-two number-more">2</a>
+                          <a href="" class="post__number-three number-more">3</a>
+                          <a href="" class="post__number-four number-more">4</a>
+                          <a href="" class="post__number-more number-more">...</a>
+                          <a href="" class="post__number-right number-more">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14"
+                              height="14"
+                              viewBox="0 0 14 14"
+                              fill="none"
+                            >
+                              <path
+                                d="M5.25 10.5L8.75 7L5.25 3.5"
+                                stroke="#7B88A8"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col"
+                      style="--col-xl: 4; --col-lg: 3; --col-md: 12; --col-sm: 12"
+                    >
+                      <div class="sidebar">
+                        <h2 class="sidebar__search">
+                          <div class="sidebar__search-title">Search</div>
+                          <form action="" class="input__search">
+                            <input
+                              type="text"
+                              class="input__email"
+                              placeholder="Enter email"
+                            />
+                            <div class="input__icon">
+                              <img src="../assets/images/Search.jpg" alt="" />
+                            </div>
+                          </form>
+                        </h2>
+                        <div class="sidebar__latest">
+                          <h2 class="sidebar__latest-title">Latest News</h2>
+                          <div class="sidebar__latest-content">
+                            <div class="sidebar__content-item">
+                              <div class="sidebar__content-img">
+                                <img src="../assets/images/latest-img1.jpg" alt="" />
+                              </div>
+                              <h3 class="sidebar__latest-note">
+                                Start Your First Week Of A New Job Like A Boss
+                              </h3>
+                            </div>
+                            <div class="sidebar__content-item">
+                              <div class="sidebar__content-img">
+                                <img src="../assets/images/latest-img2.jpg" alt="" />
+                              </div>
+                              <h3 class="sidebar__latest-note">
+                                Pioneering A New Twist On Coworking Models
+                              </h3>
+                            </div>
+                            <div class="sidebar__content-item">
+                              <div class="sidebar__content-img">
+                                <img src="../assets/images/latest-img3.jpg" alt="" />
+                              </div>
+                              <h3 class="sidebar__latest-note">
+                                The White-Label Software Model In Fintech
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sidebar__categories">
+                          <h2 class="sidebar__categories-title">Categories</h2>
+                          <form action="" class="select">
+                            <select name="" id="" class="select__nav">
+                              <option value="">Select</option>
+                            </select>
+                            <div class="select__icon">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none"
+                              >
+                                <g opacity="0.7">
+                                  <path
+                                    d="M3.5 5.25L7 8.75L10.5 5.25"
+                                    stroke="#888682"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </g>
+                              </svg>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="sidebar__tag">
+                          <h2 class="sidebar__tag-title">Tags</h2>
+                          <div class="sidebar__tag-item">
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">api</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">apps</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">branding</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">design</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">deverloper</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">devops</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">email</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">fintech</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">news</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">technology</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">shop</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">startup</h3>
+                            </a>
+                            <a href="#" class="side__item-api">
+                              <h3 class="side__item-content">wordpress</h3>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="sidebar__archive">
+                          <h2 class="sidebar__archive-title">Archive</h2>
+                          <form action="" class="select">
+                            <select name="" id="" class="select__nav">
+                              <option value="">Select</option>
+                            </select>
+                            <div class="select__icon">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none"
+                              >
+                                <g opacity="0.7">
+                                  <path
+                                    d="M3.5 5.25L7 8.75L10.5 5.25"
+                                    stroke="#888682"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </g>
+                              </svg>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="sidebar__subcribe">
+                          <div class="side__subcribe-item">
+                            <h2 class="side__subcribe-title">
+                              Subscribe To Our Newsletter Today
+                            </h2>
+                            <button class="button button--blue btn-sub">
+                              Subcribe
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-section cta">
+        <div class="container">
+          <div class="blog__cta">
+            <div class="blog__cta-note">
+              Visit our blog! Follow the developments in the technology &
+              entrepreneur world
+            </div>
+            <div class="blog__cta-title">
+              Subscribe to our newsletter
+              <span>free</span>
+              and stay updated on the latest developments!
+            </div>
+            <form action="" class="submit">
+                <input type="text" class="input__email" placeholder="Enter email">
+                <button class="button button--blue btn-subcribe">Subcribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <div class="footer__bottom">
+          <div class="container">
+            <div class="footer__bottom-wrap">
+              <div class="row">
+                <div
+                  class="col"
+                  style="--col-xl: 2; --col-lg: 2; --col-md: 12; --col-sm: 12"
+                >
+                  <a href="#" class="footer__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="44" viewBox="0 0 32 44" fill="none">
+                      <g clip-path="url(#clip0_363_3009)">
+                        <path d="M32 16C32 11.7565 30.3143 7.68687 27.3137 4.68629C24.3131 1.68571 20.2435 0 16 0C11.7565 0 7.68687 1.68571 4.68629 4.68629C1.68571 7.68687 0 11.7565 0 16C0 16.2133 3.91006e-07 16.4267 0.0170671 16.64V16H16.0171V32C20.2576 31.9955 24.3229 30.3078 27.3197 27.3077C30.3166 24.3076 32 20.2405 32 16Z" fill="#61DCDF"/>
+                        <path d="M0 17V44H16V32.3071H15.9872C11.8545 32.3071 7.88218 30.7135 4.90207 27.8602C1.92197 25.0069 0.165306 21.1151 0 17Z" fill="#886CFF"/>
+                        <path d="M0 16V16.64C0.165262 20.7693 1.92146 24.6746 4.90077 27.5378C7.88007 30.401 11.8514 32 15.9829 32H16V16H0Z" fill="#F9E492"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_363_3009">
+                          <rect width="32" height="44" fill="white"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <h2>Pollock</h2>
+                  </a>
+                </div>
+                <div
+                  class="col"
+                  style="--col-xl: 6; --col-lg: 6; --col-md: 12; --col-sm: 12"
+                >
+                  <div class="footer__menu-wrap">
+                    <div class="footer__menu">
+                      <div class="footer__menu-title">Company</div>
+                      <ul>
+                        <li class="footer__menu-item">
+                          <a href="#">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Work</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Careers</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Pricing</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Blog</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="footer__menu">
+                      <div class="footer__menu-title">Service</div>
+                      <ul>
+                        <li class="footer__menu-item">
+                          <a href="#">Branding</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Websites</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Development</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Strategy</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Platforms</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="footer__menu">
+                      <div class="footer__menu-title">Contact</div>
+                      <ul>
+                        <li class="footer__menu-item">
+                          <a href="#">Help Desk</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Docs</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Open a Ticket</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Chat</a>
+                        </li>
+                        <li class="footer__menu-item">
+                          <a href="#">Forum</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col"
+                  style="--col-xl: 4; --col-lg: 4; --col-md: 12; --col-sm: 12"
+                >
+                  <div class="footer__sub">
+                    <div class="footer__sub-title">Newsletter</div>
+                  </div>
+                  <div class="footer__sub-text">
+                    Subscribe to our newsletter to keep up to date on our
+                    marketing, website, design services, and tips.
+                  </div>
+                  <form action="" class="input">
+                    <input type="text" class="input__email" placeholder="Enter email">
+                    <button class="button button--blue" type="submit">Submit</button>
+                  </form>
+                  <div class="footer__sub-note">We hate spam as much as you do. We will never, ever send you such emails.</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__policy">
+              <div class="footer__policy-text">
+                © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions. Privacy Policy.
+              </div>
+              <div class="footer__policy-item">
+                  <a href="" class="footer__item-icon">
+                    <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.64969 19.893V10.0503H9.60788L10 6.58617H6.64969L6.65466 4.85219C6.65466 3.94866 6.74616 3.46476 8.12971 3.46476H9.97926V0H7.02039C3.46628 0 2.21552 1.68041 2.21552 4.50675V6.58643H0V10.0509H2.21552V19.7535C3.07864 19.9148 3.97095 20 4.88458 20C5.47479 20 6.06438 19.9643 6.64969 19.893Z" fill="white"></path>
+                    </svg>
+                  </a>
+                  <a href="" class="footer__item-icon">
+                    <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M26 2.36769C25.0331 2.76923 24.0029 3.03538 22.9287 3.16462C24.0337 2.54 24.8771 1.55846 25.2736 0.375385C24.2434 0.956923 23.1059 1.36769 21.8936 1.59692C20.9154 0.610769 19.5211 0 18.0001 0C15.0491 0 12.6734 2.26769 12.6734 5.04769C12.6734 5.44769 12.7091 5.83231 12.7969 6.19846C8.3655 5.99385 4.44438 3.98308 1.81025 0.92C1.35037 1.67538 1.08063 2.54 1.08063 3.47077C1.08063 5.21846 2.03125 6.76769 3.44825 7.66462C2.59187 7.64923 1.75175 7.41385 1.04 7.04308C1.04 7.05846 1.04 7.07846 1.04 7.09846C1.04 9.55077 2.88762 11.5877 5.3105 12.0569C4.87663 12.1692 4.40375 12.2231 3.913 12.2231C3.57175 12.2231 3.22725 12.2046 2.90387 12.1369C3.5945 14.1354 5.55425 15.6046 7.8845 15.6523C6.071 16.9954 3.76838 17.8046 1.27562 17.8046C0.8385 17.8046 0.41925 17.7862 0 17.7354C2.36112 19.1769 5.15938 20 8.177 20C17.9855 20 23.348 12.3077 23.348 5.64C23.348 5.41692 23.3399 5.20154 23.3285 4.98769C24.3864 4.27692 25.2752 3.38923 26 2.36769Z" fill="white"></path>
+                    </svg>
+                  </a>
+                  <a href="" class="footer__item-icon">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 2.32323C0 1.64982 0.236493 1.09426 0.709459 0.656566C1.18243 0.218848 1.7973 0 2.55405 0C3.2973 0 3.89864 0.215475 4.35811 0.646465C4.83107 1.09091 5.06757 1.67002 5.06757 2.38384C5.06757 3.0303 4.83784 3.56901 4.37838 4C3.90541 4.44444 3.28378 4.66667 2.51351 4.66667H2.49324C1.74999 4.66667 1.14866 4.44444 0.689189 4C0.229723 3.55556 0 2.99663 0 2.32323ZM0.263514 20V6.50505H4.76351V20H0.263514ZM7.25676 20H11.7568V12.4646C11.7568 11.9933 11.8108 11.6296 11.9189 11.3737C12.1081 10.9158 12.3953 10.5286 12.7804 10.2121C13.1655 9.89562 13.6486 9.73737 14.2297 9.73737C15.7432 9.73737 16.5 10.7542 16.5 12.7879V20H21V12.2626C21 10.2694 20.527 8.75758 19.5811 7.72727C18.6351 6.69697 17.3851 6.18182 15.8311 6.18182C14.0878 6.18182 12.7297 6.92929 11.7568 8.42424V8.46465H11.7365L11.7568 8.42424V6.50505H7.25676C7.28378 6.93602 7.2973 8.27608 7.2973 10.5253C7.2973 12.7744 7.28378 15.9326 7.25676 20Z" fill="white"></path>
+                    </svg>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

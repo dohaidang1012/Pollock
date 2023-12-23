@@ -1,0 +1,111 @@
+.navigator {
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #f8fafc;
+  position: relative;
+}
+
+.header__nav {
+  overflow: hidden;
+}
+
+.container {
+  max-width: var(--grid-container-width);
+  margin: auto;
+  padding-left: var(--grid-container-gap);
+  padding-right: var(--grid-container-gap);
+}
+
+.navigator-lf {
+  position: absolute;
+  width: 683px;
+  height: 595px;
+  border-radius: 783.403px;
+  opacity: 0.5;
+  background: linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%);
+  filter: blur(100px);
+  top: 200px;
+  left: -600px;
+  color: Purple Gradient;
+  z-index: -1;
+}
+
+.navigator-lf svg {
+  width: 100%;
+}
+
+.navigator-ct {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  fill: #4f77ff;
+  border-radius: 50%;
+  opacity: 0.5;
+  top: 386px;
+  left: 500px;
+  filter: blur(100px);
+  background: linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%);
+}
+
+.navigator-ct svg {
+  width: 100%;
+}
+
+.navigator-rg {
+  position: absolute;
+  width: 661px;
+  height: 643.782px;
+  flex-shrink: 0;
+  fill: #886cff;
+  opacity: 0.5;
+  top: -100px;
+  right: -700px;
+  border-radius: 50%;
+  filter: blur(100px);
+  background: linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%);
+}
+
+.navigator__content-box {
+  padding: 139px 0 203px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigator__content-title {
+  color: #2d3958;
+  font-family: Outfit;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 116.667%;
+  letter-spacing: -2px;
+  width: 65%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.navigator__content-title > span {
+  background: -webkit-linear-gradient(224deg, #61dcdf 0%, #886cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navigator__content-note {
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 145.455%;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: #2d3958;
+  padding: 0;
+}
+
+.navigator__content-note span {
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 145.445%;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: #7b88a8;
+  margin-left: 2px;
+}
