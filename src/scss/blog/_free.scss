@@ -1,8 +1,8 @@
-.cta {
+.free {
   background-image: url(/assets/images/bg-cta-blog.jpg);
   margin-top: 100px;
 }
-.blog__cta {
+.free__cta {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10,7 +10,7 @@
   min-width: 870px;
 }
 
-.blog__cta-note {
+.free__cta-note {
   font-family: Outfit;
   font-size: 22px;
   font-weight: 400;
@@ -20,7 +20,7 @@
   color: #7b88a8;
 }
 
-.blog__cta-title {
+.free__cta-title {
   text-align: center;
   font-family: Outfit;
   font-size: 48px;
@@ -32,7 +32,7 @@
   padding-bottom: 70px;
 }
 
-.blog__cta-title span {
+.free__cta-title span {
   font-family: Outfit;
   font-size: 48px;
   font-weight: 500;

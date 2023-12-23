@@ -1,0 +1,240 @@
+.sidebar {
+}
+
+.sidebar__sidebar {
+  width: 100%;
+}
+
+.sidebar__sidebar-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e7e5ea;
+  align-items: center;
+  height: 48px;
+  padding-top: 35px;
+}
+
+.sidebar__title-large {
+  color: #2d3958;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 155.556%;
+  letter-spacing: 0.4px;
+}
+
+.sidebar__title {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 155.556%;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+}
+
+.sidebar__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar__sidebar-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+  padding-top: 20px;
+}
+
+.sidebar__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar__item {
+  &:has(input:checked) {
+    .sidebar__item-right svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.field {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.field {
+  cursor: pointer;
+  span {
+    display: flex;
+    background-color: #ccc;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+      display: none;
+      color: #ffff;
+      font-size: 14px;
+      font-weight: 200;
+    }
+  }
+
+  input {
+    display: none;
+    &:checked {
+      ~ span {
+        background-color: #383838;
+
+        h4 {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.sidebar__sidebar-top {
+  input {
+    display: none;
+
+    &:checked {
+      ~ .sidebar__icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.sidebar__checkbox {
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+  display: block;
+}
+
+.sidebar__name {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+  color: #333333;
+}
+
+.sidebar__item-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__item-right svg {
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar__child {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 20px;
+}
+
+.sidebar__title {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+}
+
+.sidebar__pricing {
+  position: relative;
+}
+
+.sidebar__progess {
+  min-width: 210px;
+  height: 2px;
+  background-color: #4f77ff;
+}
+
+.sidebar__baret {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96%;
+  background-color: #4f77ff;
+}
+
+.sidebar__baret::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4f77ff;
+  left: 0;
+}
+
+.sidebar__baret::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4f77ff;
+  right: -10px;
+}
+
+.sidebar__cost {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+}
+
+.sidebar__cost-left,
+.sidebar__cost-right {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.sidebar__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar__info-cost {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: #888682;
+}
+
+.sidebar__btn-filler {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: #4f77ff;
+}

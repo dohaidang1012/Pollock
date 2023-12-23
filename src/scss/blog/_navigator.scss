@@ -3,6 +3,9 @@
   background-repeat: no-repeat;
   color: #f8fafc;
   position: relative;
+  background: url(/assets/images/header-bg2.jpg);
+  padding-top: 100px;
+  z-index: 9999;
 }
 
 .header__nav {
@@ -16,7 +19,7 @@
   padding-right: var(--grid-container-gap);
 }
 
-.navigator-lf {
+.navigator__left {
   position: absolute;
   width: 683px;
   height: 595px;
@@ -30,11 +33,11 @@
   z-index: -1;
 }
 
-.navigator-lf svg {
+.navigator__left svg {
   width: 100%;
 }
 
-.navigator-ct {
+.navigator__center {
   position: absolute;
   width: 500px;
   height: 500px;
@@ -47,11 +50,11 @@
   background: linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%);
 }
 
-.navigator-ct svg {
+.navigator__center svg {
   width: 100%;
 }
 
-.navigator-rg {
+.navigator__right {
   position: absolute;
   width: 661px;
   height: 643.782px;

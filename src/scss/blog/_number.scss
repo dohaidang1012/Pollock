@@ -1,14 +1,15 @@
-.post__number{
+.pagination{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 120px;
 }
 
-.post__number-left{
+.pagination__item{
 
 }
 
-.number-more{
+.pagination__list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,27 +24,8 @@
     color: #7B88A8;
 }
 
-.post__number-one{
-
-}
-
-.post__number-two{
+.pagination__list--style{
     background-color: #4F77FF;
     color: #fff;
 }
 
-.post__number-three{
-
-}
-
-.post__number-four{
-
-}
-
-.post__number-more{
-
-}
-
-.post__number-right{
-
-}

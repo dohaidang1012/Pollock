@@ -1,0 +1,54 @@
+
+
+.content__card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E7E5EA;
+
+}
+
+.card__title {
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155.556%;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+}
+
+.card__input {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e7e5ea;
+  min-width: 210px;
+  min-height: 48px;
+  margin-bottom: 9px;
+  border-radius: 5px;
+}
+
+.card__shopting {
+    width: 65%;
+  border: none;
+  outline: none;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 162.5%;
+  opacity: 0.7;
+  color: #7b88a8;
+  padding: 11px 20px 11px 18px;
+}
+
+.card_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 17px;
+}
+
+
+.content__card-center{
+  padding-bottom: 80px;
+}

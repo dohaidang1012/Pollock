@@ -61,11 +61,11 @@
 
 @import './blog/blogcontent.scss';
 
-@import './blog/number';
+@import './blog/number.scss';
 
-@import './blog/search';
+@import './blog/search.scss';
 
-@import './blog/latest';
+@import './blog/latest.scss';
 
 @import './blog/categories.scss';
 
@@ -75,4 +75,12 @@
 
 @import './blog/subcribe.scss';
 
-@import './blog/blog__cta';
+@import './blog/free.scss';
+
+
+// Page-Shop
+@import './page/sidebar.scss';
+
+@import './page/content.scss';
+
+@import './page/product.scss';
